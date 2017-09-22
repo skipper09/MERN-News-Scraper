@@ -2,26 +2,16 @@
   "name": "mern-news-scraper",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/skipper09/MERN-News-Scraper.git"
   },
-  "keywords": [
-    "mongodb",
-    "mongoose",
-    "express",
-    "react",
-    "node",
-    "javascript",
-    "cheerio",
-    "request",
-    "handlebars"
-  ],
-  "author": "sarah payne",
+  "author": "sarah k payne",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/skipper09/MERN-News-Scraper/issues"
@@ -29,12 +19,16 @@
   "homepage": "https://github.com/skipper09/MERN-News-Scraper#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "cheerio": "^1.0.0-rc.2",
     "express": "^4.15.4",
-    "express-handlebars": "^3.0.0",
     "mongoose": "^4.11.12",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "request": "^2.82.0"
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.6.0"
   }
 }
