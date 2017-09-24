@@ -18,6 +18,9 @@ var articleSchema = new Schema ({
     date: {
         type: String,
         required: true
+    },
+    comment: {
+        type: String
     }
 })
 

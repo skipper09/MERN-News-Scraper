@@ -1,6 +1,5 @@
 var React = require("react"),
     ReactDOM = require("react-dom");
+import {Main} from './components/Main.js';
 
-// var Parent = require("./components/Parent");
-
-ReactDOM.render(<h1>Sup dud</h1>, document.getElementById('app'));
+ReactDOM.render(<Main />, document.getElementById('app'));
